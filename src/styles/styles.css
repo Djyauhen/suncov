@@ -29,6 +29,7 @@
 
 body {
     background: #110A1D;
+    overflow-x: hidden;
 }
 
 .container {
@@ -268,7 +269,6 @@ p {
 
 .main {
     position: relative;
-    overflow-x: hidden;
 }
 
 .main .center-vertical {
