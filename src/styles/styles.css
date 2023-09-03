@@ -268,6 +268,7 @@ p {
 
 .main {
     position: relative;
+    overflow-x: hidden;
 }
 
 .main .center-vertical {
