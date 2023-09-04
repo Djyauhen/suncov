@@ -27,6 +27,10 @@
     margin: 0 auto;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background: #110A1D;
     overflow-x: hidden;
@@ -350,7 +354,6 @@ p {
 }
 
 .main .container .main-text .main-title {
-    line-height: 96px;
     margin-bottom: 24px;
 }
 
@@ -363,7 +366,6 @@ p {
     font-family: 'Lexend', sans-serif;
     font-size: 32px;
     font-weight: 500;
-    line-height: 32px;
     margin-bottom: 48px;
 }
 
@@ -384,6 +386,7 @@ p {
 
 
 .main .container .main-blog .right-dot {
+    display: block;
     position: absolute;
     bottom: -195px;
     right: -190px;
@@ -455,7 +458,6 @@ p {
 }
 
 .main .container .main-blog .blog-items .blog-item h3 {
-    line-height: 28px;
     margin-bottom: 14px;
 }
 
@@ -503,7 +505,6 @@ p {
     font-family: 'Lexend', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
     text-decoration: none;
 }
 

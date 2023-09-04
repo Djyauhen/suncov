@@ -128,6 +128,9 @@
 }
 
 @media screen and (max-width: 750px) {
+    .main .container .main-text {
+        max-width: 550px;
+    }
     .main .container .main-text .left-dot {
         width: 81px;
         height: 466px;
@@ -135,16 +138,12 @@
         top: 22px;
         filter: blur(40px);
     }
-
-    .main .container .main-text {
-        max-width: 669px;
-    }
 }
 
 @media screen and (max-width: 550px) {
-
     .main .container {
         padding: 70px 10px;
+        max-width: 470px;
     }
 
     .main .center-vertical {
@@ -264,19 +263,13 @@
         top: 410px;
     }
 
-    .main .container {
-        overflow-x: hidden;
-    }
-
     .main .container .main-text .main-title {
         margin-bottom: 24px;
-        line-height: 50px;
         overflow-x: hidden;
     }
 
     .main .container .main-text p {
         font-size: 20px;
-        line-height: 26px;
     }
 
     .main .container .main-text .button {
@@ -302,7 +295,6 @@
     }
 
     .main .container .main-blog .blog-items .blog-item h3 {
-        line-height: 20px;
         margin-bottom: 6px;
     }
 
