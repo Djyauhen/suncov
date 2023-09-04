@@ -7,6 +7,7 @@ const menuOpen = document.getElementById('menu-burger');
 const menuClose = document.getElementById('small-menu-close');
 const header = document.getElementById('header');
 let language = document.getElementById('language');
+const htmlScroll = document.getElementsByTagName('html')[0];
 
 function changeLanguage(lang) {
     if (lang === 'EN') {
@@ -25,9 +26,11 @@ languageBtnSmall.onclick = () => {
 }
 
 menuOpen.onclick = () => {
-        smallMenu.style.display = 'block';
+    smallMenu.style.display = 'block';
+    htmlScroll.style.height = smallMenu.style.height
 }
 
 menuClose.onclick = () => {
-        smallMenu.style.display = 'none';
+    smallMenu.style.display = 'none';
+    htmlScroll.style.height = 'auto';
 }
